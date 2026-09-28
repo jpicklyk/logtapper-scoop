@@ -1,5 +1,5 @@
 {
-  "version": "0.13.3",
+  "version": "0.14.0",
   "description": "Android log file analyzer with AI-assisted analysis",
   "homepage": "https://github.com/jpicklyk/LogTapper",
   "license": "GPL-3.0-or-later",
@@ -8,8 +8,8 @@
     "on Windows 10 install it from https://developer.microsoft.com/microsoft-edge/webview2/",
     "Updates come from 'scoop update logtapper'; the in-app updater is disabled for Scoop installs."
   ],
-  "url": "https://github.com/jpicklyk/LogTapper/releases/download/v0.13.3/LogTapper_0.13.3_x64-setup.exe",
-  "hash": "4c54db72c8f5b4981e3ebd126d251d9b7ddfca18fb4d6877431dbc00b2b56941",
+  "url": "https://github.com/jpicklyk/LogTapper/releases/download/v0.14.0/LogTapper_0.14.0_x64-setup.exe",
+  "hash": "f29be9cd0c3992c0fba516331d5d5fc4aeb6d6075ded1eb11e9d0a37c3752894",
   "pre_install": [
     "Expand-7zipArchive \"$dir\\$fname\" \"$dir\" -Removal",
     "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse -Force -ErrorAction SilentlyContinue"
